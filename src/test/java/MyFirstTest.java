@@ -21,7 +21,7 @@ public class MyFirstTest {
         List<String> languages = new ArrayList<>();
         List<String> moreLanguages = new ArrayList<>();
 
-        assertNotSame(languages, moreLanguages);
+        assertNotSame(languages, moreLanguages);   //this is true bc they are not the same object
     }
 
     @Test
